@@ -1,7 +1,7 @@
 # CeciliaMasemola.github.io
 My Personal Website
 
-# Copyright Notice for TheGeospatialScientist.com
+# Copyright Notice for CeciliaMasemola.github.io
 
 Copyright © 2024 Cecilia Masemola
 
