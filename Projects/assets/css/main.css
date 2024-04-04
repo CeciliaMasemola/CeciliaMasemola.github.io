@@ -4135,8 +4135,8 @@ input, select, textarea {
 	}
 
 	#logo a {
-		color: #0000FF; /* This sets the color to blue */
-		font-size: 32px; /* Adjusts the size. Feel free to change the value */
+		color: #f4f4f8; /* This sets the color to blue */
+		font-size: 34px; /* Adjusts the size. Feel free to change the value */
 		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; /* Example font */
 		text-decoration: none; /* Removes underline from links */
 	}
