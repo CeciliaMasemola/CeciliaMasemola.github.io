@@ -4133,3 +4133,34 @@ input, select, textarea {
 	height: 100px; /* Placeholder height */
 	overflow: hidden; /* Ensures nothing spills outside the placeholder */
 	}
+
+	#logo a {
+		color: #0000FF; /* This sets the color to blue */
+		font-size: 32px; /* Adjusts the size. Feel free to change the value */
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; /* Example font */
+		text-decoration: none; /* Removes underline from links */
+	}
+
+	#logo a {
+		font-family: 'Roboto', sans-serif;
+	}
+
+	#logo img {
+		width: 150px; /* Adjust the width as necessary */
+		height: auto; /* Maintains the aspect ratio */
+	}
+
+	#banner .image {
+		flex-shrink: 0; /* Prevents the image container from shrinking */
+		width: 200px; /* Set a fixed width for the image container */
+		height: 200px; /* Set a fixed height for the image container */
+		border-radius: 50%; /* Gives the container a circular shape */
+		overflow: hidden; /* Ensures the image does not spill outside the container */
+	}
+
+	#banner .image img {
+		display: block; /* Removes any default inline spacing */
+		width: 100%; /* Makes the image fill the width of its container */
+		height: 100%; /* Makes the image fill the height of its container */
+		object-fit: cover; /* Covers the container, maintains aspect ratio, and may crop */
+	}
