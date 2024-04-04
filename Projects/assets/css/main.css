@@ -4120,3 +4120,8 @@ input, select, textarea {
 	#logo a {
 		font-family: 'Roboto', sans-serif;
 	}
+
+	#logo img {
+		width: 150px; /* Adjust the width as necessary */
+		height: auto; /* Maintains the aspect ratio */
+	  }
