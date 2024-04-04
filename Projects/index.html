@@ -32,12 +32,32 @@
 		}
 
 
-		.image {
-		display: inline-block; /* Allows the span to be sized */
-		width: 100px; /* Placeholder width */
-		height: 100px; /* Placeholder height */
-		overflow: hidden; /* Ensures nothing spills outside the placeholder */
+		#banner .content {
+			display: flex;
+			flex-direction: row; /* Aligns items horizontally */
+			align-items: center; /* Centers items vertically in the container */
+			justify-content: space-between; /* Adds space between the text and the image */
 		}
+
+		#banner header {
+			flex-grow: 1; /* Allows the header text to fill the space */
+		}
+
+		#banner .image {
+			flex-shrink: 0; /* Prevents the image container from shrinking */
+			width: 200px; /* Set a fixed width for the image container */
+			height: 200px; /* Set a fixed height for the image container */
+			border-radius: 50%; /* Gives the container a circular shape */
+			overflow: hidden; /* Ensures the image does not spill outside the container */
+		}
+
+		#banner .image img {
+			display: block; /* Removes any default inline spacing */
+			width: 100%; /* Makes the image fill the width of its container */
+			height: 100%; /* Makes the image fill the height of its container */
+			object-fit: cover; /* Covers the container, maintains aspect ratio, and may crop */
+		}
+
 		</style>
 	</head>
 	<body class="is-preload landing">
