@@ -4125,3 +4125,11 @@ input, select, textarea {
 		width: 150px; /* Adjust the width as necessary */
 		height: auto; /* Maintains the aspect ratio */
 	  }
+
+
+	.image {
+	display: inline-block; /* Allows the span to be sized */
+	width: 100px; /* Placeholder width */
+	height: 100px; /* Placeholder height */
+	overflow: hidden; /* Ensures nothing spills outside the placeholder */
+	}
